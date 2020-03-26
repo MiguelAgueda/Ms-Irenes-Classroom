@@ -13,7 +13,7 @@
     <b-row class="pl-3 pr-3">
       <b-col class="text-center">
         <a href="/">
-          <b-img height="120px" src="/favicon.ico"></b-img>
+          <b-img height="120px" src="/ReaderWoodchuck.png"></b-img>
         </a>
       </b-col>
     </b-row>

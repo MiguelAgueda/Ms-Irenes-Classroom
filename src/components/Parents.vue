@@ -3,7 +3,7 @@
     <b-row class="pl-3 pr-3">
       <b-col class="text-center">
         <a href="/">
-          <b-img height="120px" src="/ParentIcon.png"></b-img>
+          <b-img height="120px" src="/ParentWoodchuck.png"></b-img>
         </a>
       </b-col>
     </b-row>
