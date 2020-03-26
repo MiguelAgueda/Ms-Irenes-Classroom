@@ -5,6 +5,9 @@ import ReadAloud from '../components/ReadAloud.vue';
 import SecondAndThirdReads from '../components/SecondAndThirdReads.vue';
 import FourthAndFifthReads from '../components/FourthAndFifthReads.vue';
 import MathRedirect from '../components/MathRedirect.vue';
+import Grades23 from '../components/Grades23.vue';
+import Grades456 from '../components/Grades456.vue';
+import Parents from '../components/Parents.vue';
 
 Vue.use(VueRouter);
 
@@ -15,17 +18,22 @@ const routes = [
     component: Home,
   },
   {
-    path: '/readaloud',
+    path: '/parents',
+    name: 'Parents',
+    component: Parents,
+  },
+  {
+    path: '/readalouds',
     name: 'ReadAloud',
     component: ReadAloud,
   },
   {
-    path: '/readaloud/secondandthirdreads',
+    path: '/readalouds/grades23',
     name: 'SecondAndThirdReads',
     component: SecondAndThirdReads,
   },
   {
-    path: '/readaloud/fourthandfifthreads',
+    path: '/readalouds/grades456',
     name: 'FourthAndFifthReads',
     component: FourthAndFifthReads,
   },
@@ -33,6 +41,16 @@ const routes = [
     path: '/mathredirect',
     name: 'MathRedirect',
     component: MathRedirect,
+  },
+  {
+    path: '/grades23',
+    name: 'Grades23',
+    component: Grades23,
+  },
+  {
+    path: '/grades456',
+    name: 'Grades456',
+    component: Grades456,
   },
 ];
 

@@ -2,7 +2,9 @@
   <b-container class="pl-2 pr-2">
     <b-row class="pl-3 pr-3">
       <b-col class="text-center">
-        <b-img height="120px" src="/favicon.ico" href="/"></b-img>
+        <a href="/">
+          <b-img height="120px" src="/favicon.ico"></b-img>
+        </a>
       </b-col>
     </b-row>
 
@@ -12,36 +14,22 @@
       </b-col>
     </b-row>
 
-    <b-row class="pl-3 pr-3 pb-6">
+    <b-row class="pl-3 pr-3 pb-1">
       <b-col class="text-center">
-        <h2>Let's get learning.</h2>
+        <h3>What grade are you in?</h3>
       </b-col>
     </b-row>
 
     <b-row class="pl-3 pr-3 pb-6">
       <b-col class="text-center">
-        <b-button
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeoHPTlY9uMBL85rWaOxMXcVnJ7_dnsxDsozKhkKAfTI-hSyg/viewform?vc=0&c=0&w=1&usp=mail_form_link"
-          variant="success"
-          target="_blank"
-          ><h5>Technology Survey for At-Home-Learning</h5></b-button
-        >
-      </b-col>
-    </b-row>
-
-    <b-row class="pl-3 pb-6">
-      <b-col class="text-center">
-        <a href="/readaloud" target="_self" style="color:#28a745">
-          <h4>Read-Alouds</h4>
-        </a>
-      </b-col>
-    </b-row>
-
-    <b-row class="pl-3">
-      <b-col class="text-center">
-        <a href="/mathredirect" target="_self" style="color:#28a745">
-          <h4>Math</h4>
-        </a>
+        <b-button-group>
+          <b-button variant="success" href="/grades23">2nd Grade</b-button>
+          <b-button variant="primary" href="/grades23">3rd Grade</b-button>
+          <b-button variant="danger" href="/grades456">4th Grade</b-button>
+          <b-button variant="info" href="/grades456">5th Grade</b-button>
+          <b-button variant="secondary" href="/grades456">6th Grade</b-button>
+          <b-button variant="dark" href="/parents">I'm a Parent</b-button>
+        </b-button-group>
       </b-col>
     </b-row>
   </b-container>
