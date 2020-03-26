@@ -2,7 +2,7 @@
   <b-container class="pl-2 pr-2">
     <b-row class="pl-3 pr-3">
       <b-col class="text-center">
-        <b-img height="120px" src="/favicon.ico"></b-img>
+        <b-img height="120px" src="/favicon.ico" href="/"></b-img>
       </b-col>
     </b-row>
 
@@ -18,9 +18,20 @@
       </b-col>
     </b-row>
 
-    <b-row class="pl-3">
+    <b-row class="pl-3 pr-3 pb-6">
       <b-col class="text-center">
-        <a href="/readaloud" target="_self">
+        <b-button
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeoHPTlY9uMBL85rWaOxMXcVnJ7_dnsxDsozKhkKAfTI-hSyg/viewform?vc=0&c=0&w=1&usp=mail_form_link"
+          variant="success"
+          target="_blank"
+          ><h5>Technology Survey for At-Home-Learning</h5></b-button
+        >
+      </b-col>
+    </b-row>
+
+    <b-row class="pl-3 pb-6">
+      <b-col class="text-center">
+        <a href="/readaloud" target="_self" style="color:#28a745">
           <h4>Read-Alouds</h4>
         </a>
       </b-col>
@@ -28,7 +39,7 @@
 
     <b-row class="pl-3">
       <b-col class="text-center">
-        <a href="https://my.mheducation.com/" target="_blank">
+        <a href="/mathredirect" target="_self" style="color:#28a745">
           <h4>Math</h4>
         </a>
       </b-col>

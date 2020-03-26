@@ -4,7 +4,7 @@ import Home from '../components/Home.vue';
 import ReadAloud from '../components/ReadAloud.vue';
 import SecondAndThirdReads from '../components/SecondAndThirdReads.vue';
 import FourthAndFifthReads from '../components/FourthAndFifthReads.vue';
-// import Readaloud from '../components/Readaloud.vue';
+import MathRedirect from '../components/MathRedirect.vue';
 
 Vue.use(VueRouter);
 
@@ -28,6 +28,11 @@ const routes = [
     path: '/readaloud/fourthandfifthreads',
     name: 'FourthAndFifthReads',
     component: FourthAndFifthReads,
+  },
+  {
+    path: '/mathredirect',
+    name: 'MathRedirect',
+    component: MathRedirect,
   },
 ];
 
