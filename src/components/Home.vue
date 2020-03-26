@@ -28,7 +28,7 @@
           <b-button variant="danger" href="/grades456">4th Grade</b-button>
           <b-button variant="info" href="/grades456">5th Grade</b-button>
           <b-button variant="secondary" href="/grades456">6th Grade</b-button>
-          <b-button variant="dark" href="/parents">I'm a Parent</b-button>
+          <b-button variant="dark" href="/parents">I'm a Parent/Guardian</b-button>
         </b-button-group>
       </b-col>
     </b-row>
