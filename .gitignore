@@ -21,3 +21,4 @@ yarn-error.log*
 *.sw?
 .gcloudignore
 .prettierrc
+TF_Color.code-workspace
