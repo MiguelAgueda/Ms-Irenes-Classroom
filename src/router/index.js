@@ -1,13 +1,15 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../components/Home.vue';
-import ReadAloud from '../components/ReadAloud.vue';
-import SecondAndThirdReads from '../components/SecondAndThirdReads.vue';
-import FourthAndFifthReads from '../components/FourthAndFifthReads.vue';
-import MathRedirect from '../components/MathRedirect.vue';
-import Grades23 from '../components/Grades23.vue';
-import Grades456 from '../components/Grades456.vue';
-import Parents from '../components/Parents.vue';
+import Home from '@/components/Home.vue';
+import ReadAloud from '@/components/ReadAloud.vue';
+import SecondAndThirdReads from '@/components/SecondAndThirdReads.vue';
+import FourthAndFifthReads from '@/components/FourthAndFifthReads.vue';
+import MathRedirect from '@/components/MathRedirect.vue';
+import Grades23 from '@/components/Grades23.vue';
+import Grades456 from '@/components/Grades456.vue';
+import Parents from '@/components/Parents.vue';
+import AlphabetCards from '@/components/AlphabetCards.vue';
+import SpeechRecog from '@/components/SpeechRecog.vue';
 
 Vue.use(VueRouter);
 
@@ -51,6 +53,16 @@ const routes = [
     path: '/grades456',
     name: 'Grades456',
     component: Grades456,
+  },
+  {
+    path: '/AlphabetCards',
+    name: 'AlphabetCards',
+    component: AlphabetCards,
+  },
+  {
+    path: '/SpeechRecognition',
+    name: 'SpeechRecognition',
+    component: SpeechRecog,
   },
 ];
 

@@ -37,6 +37,22 @@
         </a>
       </b-col>
     </b-row>
+
+    <!-- <b-row class="pl-3">
+      <b-col class="text-center">
+        <a href="/AlphabetCards" target="_self" style="color:#28a745">
+          <h4>Alphabet Cards</h4>
+        </a>
+      </b-col>
+    </b-row> -->
+
+    <b-row class="pl-3">
+      <b-col class="text-center">
+        <a href="/SpeechRecognition" target="_self" style="color:#28a745">
+          <h4>Help with Spelling</h4>
+        </a>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 

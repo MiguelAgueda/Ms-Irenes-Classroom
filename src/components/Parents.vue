@@ -14,7 +14,7 @@
       </b-col>
     </b-row>
 
-    <b-row class="pb-2">
+    <!-- <b-row class="pb-2">
       <b-col>
         <h4>Please fill out the following survey</h4>
       </b-col>
@@ -29,7 +29,7 @@
           ><h5>Technology Survey for At-Home-Learning</h5></b-button
         >
       </b-col>
-    </b-row>
+    </b-row> -->
 
     <b-row>
       <b-col class="text-center">
